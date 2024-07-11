@@ -1,0 +1,78 @@
+body {
+  background: #1D2430;
+  height: 100vh;
+  margin: 0;
+  font-family:  'SF Pro Rounded', -apple-system, 'SF Pro Text',
+  'SF UI Text', system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#root{
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+main {
+
+  background: #1D2430;
+  display: flex;
+  height: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  position:relative;
+  padding-bottom:50px;
+  padding-top: -150px;
+}
+
+h1, h2{
+  color: white;
+}
+
+#img {
+  position: relative;
+  z-index: -1999;
+}
+
+#img2 {
+  margin-top: -4px;
+  position: relative;
+  z-index: -2000;
+}
+
+.energy{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  bottom:0;
+  margin-bottom: 5%;
+
+}
+
+.energy>p {
+  /* 4471 / 5000 */
+
+
+
+font-family: 'Roboto';
+font-style: bold;
+font-weight: bold;
+font-size: 24px;
+line-height: 19px;
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
