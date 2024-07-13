@@ -54,7 +54,7 @@ h1, h2{
   position:absolute;
   bottom:0;
   margin-bottom: 5%;
-  width: 95% !important;
+  width: 98% !important;
   background-color: #0C2B2B;
   border-radius: 10px;
 }
@@ -68,8 +68,8 @@ h1, h2{
 }
 
 .foot img {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
 }
 
 .foot a {
