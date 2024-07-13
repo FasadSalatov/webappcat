@@ -49,9 +49,66 @@ h1, h2{
 .foot {
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
   position:absolute;
   bottom:0;
   margin-bottom: 5%;
+  width: 95% !important;
+  background-color: #0C2B2B;
+  border-radius: 10px;
+}
+
+.main3 {
+  padding-top: -100%;
+}
+
+.actives {
+  background-color: #0b1f1f !important;
+}
+
+.foot img {
+  width: 22px;
+  height: 22px;
+}
+
+.foot a {
+  text-decoration: none;
+  /* Exchange */
+
+width: 40px;
+height: 10px;
+
+font-family: 'arial';
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+
+line-height: 110%;
+/* identical to box height, or 10px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.foot button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  /* Frame 14 */
+width: 78px;
+height: 54px;
+/* Auto layout */
+padding: 5px 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+border-radius: 8px;
 
 }
 

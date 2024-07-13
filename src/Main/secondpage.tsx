@@ -9,8 +9,9 @@ import foot2 from './foot2.png';
 import foot3 from './foot3.png';
 import foot4 from './foot4.png';
 import foot5 from './foot5.png';
+import main2 from './main2.png';
 
-export const Main = () => {
+export const SecondPage = () => {
     const [money, setMoney] = useState(507981);
     const [energy, setEnergy] = useState(5000);
 
@@ -34,28 +35,14 @@ export const Main = () => {
         <React.StrictMode>
             <header>
                 <img src={headerimg} alt="header" width='100%' />
-                <img src={headerimg2} alt="header" width='100%' id="img2" />
+                <img src={main2} alt="header" width='100%' id="img2" />
             </header>
             <main>
-                <h1>🪙{money}</h1>
-                <div className="notcoin">
-                    <Notcoin 
-                        canIClickPlease={true}
-                        sleep={false}
-                        funMode={false}
-                        clickValue={1}
-                        cooldown={0}
-                        handleClick={handleNotcoinClick}
-                    />
-                </div>
-                <div className="energy">
-                    <p>⚡{energy}/5000</p>
-                    <p>🚀boost</p>
-                </div>
+                
                 <div className="foot">
                     <div className="footer">
-                        <button className="actives"><Link to="/"><img src={foot1} alt=""/><p>Exchange</p></Link></button>
-                        <button><Link to="/second"><img src={foot2} alt=""/><p>Mine</p></Link></button>
+                        <button><Link to="/"><img src={foot1} alt=""/><p>Exchange</p></Link></button>
+                        <button  className="actives"><Link to="/second"><img src={foot2} alt=""/><p>Mine</p></Link></button>
                         <button><Link to="/tree"><img src={foot3} alt=""/><p>Friends</p></Link></button>
                         <button><a href=""><img src={foot4} alt=""/><p>Earn</p></a></button>
                         <button><a href=""><img src={foot5} alt=""/><p>Airdrop</p></a></button>
