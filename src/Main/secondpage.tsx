@@ -43,9 +43,9 @@ export const SecondPage = () => {
                     <div className="footer">
                         <button><Link to="/"><img src={foot1} alt=""/><p>Exchange</p></Link></button>
                         <button  className="actives"><Link to="/second"><img src={foot2} alt=""/><p>Mine</p></Link></button>
-                        <button><Link to="/tree"><img src={foot3} alt=""/><p>Friends</p></Link></button>
+                        <button><a href=""><img src={foot3} alt=""/><p>Friends</p></a></button>
                         <button><a href=""><img src={foot4} alt=""/><p>Earn</p></a></button>
-                        <button><a href=""><img src={foot5} alt=""/><p>Airdrop</p></a></button>
+                        <button><Link to="/tree"><img src={foot5} alt=""/><p>Airdrop</p></Link></button>
                     </div>
                 </div>
             </main>
